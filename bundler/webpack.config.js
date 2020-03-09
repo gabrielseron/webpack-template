@@ -10,7 +10,8 @@ module.exports = {
     {
         contentBase: './dist',
         open: true,
-        host: '10.93.179.134'
+        host: '0.0.0.0',
+        useLocalIp: true,
     },
     plugins:
     [
